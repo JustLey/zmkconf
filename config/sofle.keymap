@@ -16,9 +16,6 @@
 #define ADJUST 3
 
 / {
-    chosen {
-        zmk,split-role = "peripheral";
-    };
     // Activate ADJUST layer by pressing raise and lower
     conditional_layers {
         compatible = "zmk,conditional-layers";
